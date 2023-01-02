@@ -33,6 +33,7 @@ type google = {
 
 type meet = {
     meetId: number
+    getMeeting(name: string): string
 }
 type googleAccount = account & google & meet & {
     passcode: string
@@ -46,7 +47,10 @@ const googleID: googleAccount = {
     isFunded: true,
     creditCard: 55,
     passcode: '44',
-    customers: ['client', 'client2']
+    customers: ['client', 'client2'],
+    getMeeting(nm: '33') {
+        return `meeting id is ${googleID.meetId}`
+    },
 
 
 }

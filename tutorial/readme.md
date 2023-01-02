@@ -1,0 +1,2 @@
+DIFFERENCE BETWEEN AN INTERFACE AND A TYPE
+interfaces and types are much more familier and you can choose any of them freely, the only differece is that you cannit re-open a type alias rather you can re-open an interface
